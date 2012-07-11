@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="src" path=""/>
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
-	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
-<<<<<<< HEAD
-	<classpathentry kind="lib" path="D:/workspace for indigo/BlackKnight/lib/oauth-core-20090522.jar"/>
-=======
-	<classpathentry exported="true" kind="lib" path="lib/oauth-core-20090522.jar"/>
->>>>>>> 846b6c9a5ea49dc66c454c655ef4d293664a7a49
-	<classpathentry kind="output" path="bin/classes"/>
+	<classpathentry kind="output" path="bin"/>
 </classpath>
