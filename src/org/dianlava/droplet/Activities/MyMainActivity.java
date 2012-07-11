@@ -2,9 +2,7 @@ package org.dianlava.droplet.Activities;
 
 import org.dianlava.droplet.R;
 import org.dianlava.droplet.Interfaces.MainActivity;
-import org.dianlava.droplet.Interfaces.MainInterface;
 
-import android.app.Activity;
 import android.os.Bundle;
 
 /**
