@@ -16,7 +16,7 @@ gen/
 *.properties
 
 # Custom
-!.classpath
-.gitignore
+.classpath
 *.txt
 README.md
+!.gitignore
