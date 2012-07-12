@@ -3,7 +3,7 @@
     package="org.dianlava.droplet"
     android:versionCode="1"
     android:versionName="1.0" >
-	<!-- this is a test entered by Kiyan -->
+    
     <uses-sdk android:minSdkVersion="8" />
 
     <application
@@ -20,9 +20,95 @@
         </activity>
         
         <activity
-            android:name=""
-            android:label="" >
+            android:name=".Activities.ActivityPrefActivity"
+            android:label="@string/ActivityPrefActivity" >
         </activity>
+        
+        <activity
+            android:name=".Activities.AuthorizeActivity"
+            android:label="@string/AuthorizeActivity" >
+        </activity>
+        
+        <activity
+            android:name=".Activities.CreateActivity"
+            android:label="@string/CreateActivity" >
+        </activity>
+        
+        <activity
+            android:name=".Activities.FriendActivityDetailsActivity"
+            android:label="@string/FriendActivityDetailsActivity" >
+        </activity>
+        
+        <activity
+            android:name=".Activities.FriendHabitDetailsActivity"
+            android:label="@string/FriendHabitDetailsActivity" >
+        </activity>
+        
+        <activity
+            android:name=".Activities.FriendMainActivity"
+            android:label="@string/FriendMainActivity" >
+        </activity>
+        
+        <activity
+            android:name=".Activities.FriendPreviewActivity"
+            android:label="@string/FriendPreviewActivity" >
+        </activity>
+        
+        <activity
+            android:name=".Activities.HabitPrefActivity"
+            android:label="@string/HabitPrefActivity" >
+        </activity>
+        
+        <activity
+            android:name=".Activities.LoadActivity"
+            android:label="@string/LoadActivity" >
+        </activity>
+        
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:label="@string/LoginActivity" >
+        </activity>
+        
+        <activity
+            android:name=".Activities.MyActivityDetailsActivity"
+            android:label="@string/MyActivityDetailsActivity" >
+        </activity>
+        
+        <activity
+            android:name=".Activities.MyHabitDetailsActivity"
+            android:label="@string/MyHabitDetailsActivity" >
+        </activity>
+        
+        <activity
+            android:name=".Activities.MyMainActivity"
+            android:label="@string/MyMainActivity" >
+        </activity>
+        
+        <activity
+            android:name=".Activities.RecordActivity"
+            android:label="@string/RecordActivity" >
+        </activity>
+        
+        <activity
+            android:name=".Activities.SearchFriendActivity"
+            android:label="@string/SearchFriendActivity" >
+        </activity>
+        
+        <activity
+            android:name=".Interfaces.HabitDetailsActivity"
+            android:label="@string/HabitDetailsActivity" >
+        </activity>
+        
+        <activity
+            android:name=".Interfaces.MainActivity"
+            android:label="@string/MainActivity" >
+        </activity>
+        
+        <activity
+            android:name=".Interfaces.MainActivity"
+            android:label="@string/MainActivity" >
+        </activity>
+        
     </application>
 
 </manifest>

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    
+    <!-- .Activities -->
     <string name="app_name">Droplet</string>
     <string name="ActivityPrefActivity">ActivityPrefActivity</string>
     <string name="AuthorizeActivity">AuthorizeActivity</string>
@@ -17,8 +19,8 @@
     <string name="RecordActivity">RecordActivity</string>
     <string name="SearchFriendActivity">SearchFriendActivity</string>
     
+    <!-- .Interfaces -->
     <string name="HabitDetailsActivity">HabitDetailsActivity</string>
     <string name="MainActivity">MainActivity</string>
     <string name="PrefActivity">PrefActivity</string>
-    
 </resources>
