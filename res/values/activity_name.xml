@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Droplet</string>
+    <string name="ActivityPrefActivity">ActivityPrefActivity</string>
+    <string name="AuthorizeActivity">AuthorizeActivity</string>
+    <string name="CreateActivity">CreateActivity</string>
+    <string name="FriendActivityDetailsActivity">FriendActivityDetailsActivity</string>
+    <string name="FriendHabitDetailsActivity">FriendHabitDetailsActivity</string>
+    <string name="FriendMainActivity">FriendMainActivity</string>
+    <string name="FriendPreviewActivity">FriendPreviewActivity</string>
+    <string name="HabitPrefActivity">HabitPrefActivity</string>
+    <string name="LoadActivity">LoadActivity</string>
+    <string name="LoginActivity">LoginActivity</string>
+    <string name="MyActivityDetailsActivity">MyActivityDetailsActivity</string>
+    <string name="MyHabitDetailsActivity">MyHabitDetailsActivity</string>
+    <string name="MyMainActivity">MyMainActivity</string>
+    <string name="RecordActivity">RecordActivity</string>
+    <string name="SearchFriendActivity">SearchFriendActivity</string>
+    
+    <string name="HabitDetailsActivity">HabitDetailsActivity</string>
+    <string name="MainActivity">MainActivity</string>
+    <string name="PrefActivity">PrefActivity</string>
+    
+</resources>

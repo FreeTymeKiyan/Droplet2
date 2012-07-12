@@ -17,7 +17,25 @@ public final class R {
         public static final int main=0x7f030000;
     }
     public static final class string {
-        public static final int app_name=0x7f040001;
-        public static final int hello=0x7f040000;
+        public static final int ActivityPrefActivity=0x7f040001;
+        public static final int AuthorizeActivity=0x7f040002;
+        public static final int CreateActivity=0x7f040003;
+        public static final int FriendActivityDetailsActivity=0x7f040004;
+        public static final int FriendHabitDetailsActivity=0x7f040005;
+        public static final int FriendMainActivity=0x7f040006;
+        public static final int FriendPreviewActivity=0x7f040007;
+        public static final int HabitDetailsActivity=0x7f040010;
+        public static final int HabitPrefActivity=0x7f040008;
+        public static final int LoadActivity=0x7f040009;
+        public static final int LoginActivity=0x7f04000a;
+        public static final int MainActivity=0x7f040011;
+        public static final int MyActivityDetailsActivity=0x7f04000b;
+        public static final int MyHabitDetailsActivity=0x7f04000c;
+        public static final int MyMainActivity=0x7f04000d;
+        public static final int PrefActivity=0x7f040012;
+        public static final int RecordActivity=0x7f04000e;
+        public static final int SearchFriendActivity=0x7f04000f;
+        public static final int app_name=0x7f040000;
+        public static final int hello=0x7f040013;
     }
 }
