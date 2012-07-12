@@ -12,7 +12,7 @@ import android.provider.BaseColumns;
 public interface ConstantUtil extends BaseColumns{
 	/**保存认证用的sharedpreferences的名字*/
 	public static final String AUTHORIZATION_INFO = "authorize_info";
-	
+	/*人人认证部分*/
 	/**人人认证URL*/
 	public static final String RENREN_AUTH_URL = 
 			"http://graph.renren.com/oauth/authorize?" +
@@ -26,7 +26,7 @@ public interface ConstantUtil extends BaseColumns{
 	public static final String RENREN_ACCESS_TOKEN = "renren_acces_token";
 	/**人人access token过期时间*/
 	public static final String RENREN_EXPIRE_TIME = "renren_expires_time";
-	
+	/*新浪微博认证部分*/
 	/**新浪微博认证URL*/
 	public static final String WEIBO_AUTH_URL =
 			"https://api.weibo.com/oauth2/authorize?" +
@@ -40,7 +40,7 @@ public interface ConstantUtil extends BaseColumns{
 	public static final String WEIBO_EXPIRE_TIME = "weibo_expires_time";
 	/**新浪微博用户id*/
 	public static final String WEIBO_UID = "weibo_uid";
-	
+	/*豆瓣认证部分*/
 	/**豆瓣认证URLs*/
 	public static final String DOUBAN_AUTH_URL1 = "http://www.douban.com/service/auth/request_token";
 	public static final String DOUBAN_AUTH_URL2 = "http://www.douban.com/service/auth/authorize";
@@ -54,4 +54,8 @@ public interface ConstantUtil extends BaseColumns{
 	/**豆瓣api key及secret*/
 	public static final String DOUBAN_API_KEY = "06ac89d0237be6ba14059d706a73b42e";
 	public static final String DOUBAN_API_KEY_SECRET = "8bbda19ee8c63edd";
+	
+	/*数据库部分*/
+	/**数据库的分隔符*/
+	public static final String DELIMITER = "|";
 }

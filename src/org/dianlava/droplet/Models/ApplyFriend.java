@@ -1,5 +1,7 @@
 package org.dianlava.droplet.Models;
 
+import static org.dianlava.droplet.Utils.ConstantUtil.*;
+
 public class ApplyFriend {
 	public int af_id;
 	public int u_nox;
@@ -13,7 +15,7 @@ public class ApplyFriend {
 	}
 	public ApplyFriend(String str)
 	{
-		String[] ss = str.split("\\" + Constant.DELIMITER);
+		String[] ss = str.split("\\" + DELIMITER);
 		this.af_id = Integer.parseInt(ss[0]);
 		this.u_nox = Integer.parseInt(ss[1]);
 		this.u_noy = Integer.parseInt(ss[2]);
@@ -23,9 +25,9 @@ public class ApplyFriend {
 		String result = null;
 		StringBuffer stringBuffer = new StringBuffer();
 		stringBuffer.append(af_id);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(u_nox);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(u_noy);
 		result = stringBuffer.toString();
 		return result;

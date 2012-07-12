@@ -1,5 +1,7 @@
 package org.dianlava.droplet.Models;
 
+import static org.dianlava.droplet.Utils.ConstantUtil.*;
+
 public class Visit {
 	public int v_id;
 	public int u_no;
@@ -15,7 +17,7 @@ public class Visit {
 	}
 	public Visit(String str)
 	{
-		String[] ss = str.split("\\" + Constant.DELIMITER);
+		String[] ss = str.split("\\" + DELIMITER);
 		this.v_id   = Integer.parseInt(ss[0]);
 		this.u_no   = Integer.parseInt(ss[1]);
 		this.v_no   = Integer.parseInt(ss[2]);
@@ -26,11 +28,11 @@ public class Visit {
 		String result = null;
 		StringBuffer stringBuffer = new StringBuffer();
 		stringBuffer.append(v_id);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(u_no);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(v_no);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(v_date);
 		result = stringBuffer.toString();
 		return result;

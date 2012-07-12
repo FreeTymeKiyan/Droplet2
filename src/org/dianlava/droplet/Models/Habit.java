@@ -1,6 +1,7 @@
 package org.dianlava.droplet.Models;
 
 import java.sql.Blob;
+import static org.dianlava.droplet.Utils.ConstantUtil.*;
 
 public class Habit {
 	public int ht_id;
@@ -36,7 +37,7 @@ public class Habit {
 	}
 	public Habit(String str)
 	{
-		String[] ss = str.split("\\" + Constant.DELIMITER);
+		String[] ss = str.split("\\" + DELIMITER);
 		this.ht_id       = Integer.parseInt(ss[0]);
 		this.u_no        = Integer.parseInt(ss[1]);
 		this.ht_tag      = Integer.parseInt(ss[2]);
@@ -55,27 +56,27 @@ public class Habit {
 		String result = null;
 		StringBuffer stringBuffer = new StringBuffer();
 		stringBuffer.append(ht_id);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(u_no);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(ht_tag);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(ht_insday);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(a_id);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(ht_score);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(ht_praise);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(ht_hot);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(ht_title);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(ht_crttime);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(ht_daystate);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(ht_remind);
 		result = stringBuffer.toString();
 		return result;

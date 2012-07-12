@@ -1,5 +1,7 @@
 package org.dianlava.droplet.Models;
 
+import static org.dianlava.droplet.Utils.ConstantUtil.*;
+
 public class User {
 	public int u_no;
 	public int u_renrenID;
@@ -28,7 +30,7 @@ public class User {
 	}
 	public User(String str)
 	{
-		String[] ss = str.split("\\" + Constant.DELIMITER);
+		String[] ss = str.split("\\" + DELIMITER);
 		this.u_no        = Integer.parseInt(ss[0]);
 		this.u_renrenID  = Integer.parseInt(ss[1]);
 		this.u_sinaID    = Integer.parseInt(ss[2]);
@@ -45,23 +47,23 @@ public class User {
 		String result = null;
 		StringBuffer stringBuffer = new StringBuffer();
 		stringBuffer.append(u_no);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(u_renrenID);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(u_sinaID);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(u_tencentID);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(u_doubanID);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(h_id);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(u_score);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(u_sex);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(u_useday);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(u_name);
 		result = stringBuffer.toString();
 		return result;

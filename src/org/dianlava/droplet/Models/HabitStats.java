@@ -1,5 +1,7 @@
 package org.dianlava.droplet.Models;
 
+import static org.dianlava.droplet.Utils.ConstantUtil.*;
+
 public class HabitStats {
 	public int hs_id;
 	public int u_no;
@@ -19,7 +21,7 @@ public class HabitStats {
 	}
 	public HabitStats(String str)
 	{
-		String[] ss = str.split("\\" + Constant.DELIMITER);
+		String[] ss = str.split("\\" + DELIMITER);
 		this.hs_id  = Integer.parseInt(ss[0]);
 		this.u_no   = Integer.parseInt(ss[1]);
 		this.hs_now = Integer.parseInt(ss[2]);
@@ -32,15 +34,15 @@ public class HabitStats {
 		String result = null;
 		StringBuffer stringBuffer = new StringBuffer();
 		stringBuffer.append(hs_id);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(u_no);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(hs_now);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(hs_suc);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(hs_fal);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(hs_crt);
 		result = stringBuffer.toString();
 		return result;

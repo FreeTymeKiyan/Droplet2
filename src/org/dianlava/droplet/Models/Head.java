@@ -1,6 +1,7 @@
 package org.dianlava.droplet.Models;
 
 import java.sql.Blob;
+import static org.dianlava.droplet.Utils.ConstantUtil.*;
 
 public class Head {
 	public int h_id;
@@ -15,7 +16,7 @@ public class Head {
 	}
 	public Head(String str)
 	{
-		String[] ss = str.split("\\" + Constant.DELIMITER);
+		String[] ss = str.split("\\" + DELIMITER);
 		this.h_id   = Integer.parseInt(ss[0]);
 		this.u_no   = Integer.parseInt(ss[1]);
 	}
@@ -24,7 +25,7 @@ public class Head {
 		String result = null;
 		StringBuffer stringBuffer = new StringBuffer();
 		stringBuffer.append(h_id);
-		stringBuffer.append(Constant.DELIMITER);
+		stringBuffer.append(DELIMITER);
 		stringBuffer.append(u_no);
 		result = stringBuffer.toString();
 		return result;
