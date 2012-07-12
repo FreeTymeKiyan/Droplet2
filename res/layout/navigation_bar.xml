@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a model of navigation bars -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rl_navigation_bar"     
+    >
+    
+    <TextView 
+        android:id="@+id/tv_middle"
+		android:layout_width="wrap_content"        
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:textSize="15sp"
+		android:singleLine="true"
+		android:textColor="#ffffff"
+        />
+    
+    <Button 
+        android:id="@+id/btn_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        />
+    
+    <Button 
+        android:id="@+id/btn_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        />
+
+</RelativeLayout>
