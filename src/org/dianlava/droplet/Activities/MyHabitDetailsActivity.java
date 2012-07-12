@@ -1,7 +1,6 @@
 package org.dianlava.droplet.Activities;
 
 import org.dianlava.droplet.Interfaces.HabitDetailsActivity;
-import org.dianlava.droplet.Interfaces.HabitDetailsInterface;
 
 import android.app.Activity;
 

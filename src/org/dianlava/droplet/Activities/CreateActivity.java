@@ -67,5 +67,11 @@ public class CreateActivity extends Activity implements ActivityInterface{
 		// TODO Auto-generated method stub
 		
 	}
+
+	@Override
+	public void refeshView() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }

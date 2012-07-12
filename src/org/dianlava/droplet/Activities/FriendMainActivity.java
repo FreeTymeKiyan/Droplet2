@@ -1,7 +1,6 @@
 package org.dianlava.droplet.Activities;
 
 import org.dianlava.droplet.Interfaces.MainActivity;
-import org.dianlava.droplet.Interfaces.MainInterface;
 
 import android.app.Activity;
 
