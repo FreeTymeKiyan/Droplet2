@@ -14,14 +14,22 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int btn_left=0x7f050002;
-        public static final int btn_right=0x7f050003;
-        public static final int rl_navigation_bar=0x7f050000;
-        public static final int tv_middle=0x7f050001;
+        public static final int auth_progress=0x7f050001;
+        public static final int auth_web=0x7f050000;
+        public static final int btn_left=0x7f050008;
+        public static final int btn_right=0x7f050009;
+        public static final int douban_auth=0x7f050005;
+        public static final int login_logo=0x7f050002;
+        public static final int renren_auth=0x7f050004;
+        public static final int rl_navigation_bar=0x7f050006;
+        public static final int tv_middle=0x7f050007;
+        public static final int weibo_auth=0x7f050003;
     }
     public static final class layout {
-        public static final int main=0x7f030000;
-        public static final int navigation_bar=0x7f030001;
+        public static final int auth_layout=0x7f030000;
+        public static final int login_layout=0x7f030001;
+        public static final int main=0x7f030002;
+        public static final int navigation_bar=0x7f030003;
     }
     public static final class string {
         public static final int ActivityPrefActivity=0x7f040001;
@@ -48,5 +56,8 @@ public final class R {
          */
         public static final int app_name=0x7f040000;
         public static final int hello=0x7f040013;
+        public static final int login_by_douban=0x7f040016;
+        public static final int login_by_renren=0x7f040015;
+        public static final int login_by_weibo=0x7f040014;
     }
 }
