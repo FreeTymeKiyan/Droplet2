@@ -7,5 +7,5 @@ package org.dianlava.droplet.Interfaces;
  * @version 1.0 
  * */
 public interface HabitDetailsInterface {
-
+	
 }
